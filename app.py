@@ -95,3 +95,7 @@ def home(min_dots, max_dots):
     circle_string = "".join([CIRCLE_CONTAINER.format(*circle) for circle in circles])
     inner_html = SVG_CONTAINER.format(circle_string)
     return HTML_CONTAINER.format(num_dots, inner_html)
+
+
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=8080, debug=True)
