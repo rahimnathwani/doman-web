@@ -18,7 +18,7 @@ Instead of making your own cards and using your own voice, you can run this web 
 ```pip install -r requirements.txt```
 4. Run the app locally
 ```
-export FLASK_APP=app.py
+export FLASK_APP=main.py
 flask run --host=0.0.0.0
 ```
 # How to use it
